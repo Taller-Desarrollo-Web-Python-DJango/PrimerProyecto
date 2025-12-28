@@ -16,7 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
+# Quick-start development settings - unsuitable for production.
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definition.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -69,7 +69,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'PrimerProyecto.wsgi.application'
 
 
-# Database
+# Database.
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
@@ -80,7 +80,7 @@ DATABASES = {
 }
 
 
-# Password validation
+# Password validation.
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -99,10 +99,10 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
+# Internationalization.
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
-# LANGUAGE_CODE = 'en-us' # Valor por defecto
+# LANGUAGE_CODE = 'en-us' # Valor por defecto.
 LANGUAGE_CODE = 'es-ar' # Configurado para Español de Argentina.
 
 # TIME_ZONE = 'UTC' # Valor por defecto.
@@ -115,12 +115,12 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
+# Static files (CSS, JavaScript, Images).
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
 
-# Default primary key field type
+# Default primary key field type.
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
